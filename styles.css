@@ -1,0 +1,141 @@
+* {
+    box-sizing: bonder-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-size: 62,5%;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+  }
+  .header_title {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 15px;
+  }
+  .header_paragraph {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .main {
+    background-color: lightgrey;
+  }
+  .main_imgContainer {
+    background-color: white;
+    width: 100%;
+    height: auto;
+  }
+  #image {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+  .main_imgCaption {
+    text-align: center;
+    font-size: 0.6rem;
+    background-color: white;
+    padding: 5px 10px;
+    }
+  #tribute-info {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .main-title {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 25px;
+  }
+  ul {
+    text-align: left;
+    font-size: 0.9rem;
+  }
+  li {
+    margin: 20px;
+  }
+  .main-sacrament {
+    width: 80%;
+    margin: 40px auto;
+    font-size: 0.9rem;
+  }
+  .main-sacrament figcaption {
+    margin-top: 20px;
+  }
+ h3 {
+   text-align: center;
+   font-size: 1rem;
+   padding: 0 20px 30px 20px;
+  }
+#tribute-link {
+  text-decoration: none;
+}
+
+@media (min-width: 600px) {
+
+  .header_title {
+  font-size: 2.5rem;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  }
+  .header_paragraph {
+  font-size: 1rem;
+ }
+ .main_imgCaption {
+  font-size: 0.8rem;
+  padding-bottom: 10px;
+ }
+ #tribute-info {
+  width: 70%;
+ }
+ .main-title {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+ }
+ ul {
+   font-size: 0.9rem;
+ }
+ li {
+  margin: 20px;
+ }
+ .main-sacrament {
+  width: 70%;
+  margin: 30px auto;
+  font-size: 1.1rem;
+ }
+ h3 {
+  font-size: 1.2em;
+  padding-bottom: 40px;
+ }
+}
+
+@media (min-width: 800px) {
+  .header_title {
+    font-size: 3.5rem;
+    margin: 15px;
+  }
+  .header_paragraph {
+    font-size: 1.3rem;
+ }
+ .main_imgCaption {
+    font-size: 0.9rem;
+    padding-bottom: 10px;
+ }
+ #tribute-info {
+    width: 50%;
+ }
+ .main-title {
+    font-size: 1.4rem;
+    margin: 40px 0;
+ }
+ ul {
+   font-size: 1rem;
+ }
+ .main-sacrament {
+    width: 50%;
+    margin: 60px auto;
+ }
+ h3 {
+    font-size: 1.5rem;
+    padding-bottom: 60px;
+ }
+} 
